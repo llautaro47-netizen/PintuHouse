@@ -1,0 +1,496 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100..900&display=swap');
+
+body{
+  background-color: #F8EFC0;
+}
+
+.my-navbar {
+  background-color:  #c75f88;   
+  min-height: 80px;
+  height: auto;
+  padding: 5px 0;
+}
+
+.my-navbar .navbar-brand img {
+  height: 60px;
+  width: auto;    
+}
+
+.my-navbar .nav-link {
+  color: #F8EFC0;    
+  font-family: "Montserrat", sans-serif;           
+}
+
+.my-navbar .nav-link:hover {
+  color: #F2998D;               
+}
+
+.logo-navbar {
+  width: 150px;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .logo-navbar {
+    width: 110px;
+  }
+}
+
+.navbar-toggler {
+  border-color: #F8EFC0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(248,239,192)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+.carousel-item img {
+  height: 60vh;
+  min-height: 250px;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .carousel-item img {
+    height: auto;
+    max-height: 60vh;
+    object-fit: contain;
+  }
+}
+
+.mi-texto {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  display: inline-block;
+  background-color: #F2998D;
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.mi-texto2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: black;
+  max-width: 800px;
+  margin:0 auto;
+  line-height: 1.4;
+}
+
+.mi-texto-contacto{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: black;
+  max-width: 1000px;
+  margin:0 auto;
+  line-height: 1.4;
+}
+
+.mi-texto-contacto-parrafo{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: black;
+}
+
+.botones-personalizados {
+  background-color: #F2998D;
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.botones-personalizados:hover {
+  background-color: #d87f75;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  #Introduccion .d-flex {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+
+.subtitulo{
+  color: #c75f88;
+  font-family: 'Raleway', sans-serif;
+  margin-top: -5px;
+  font-size: 2.1rem;
+}
+
+.tarjeta-catalogo {
+  border: 3px solid #000;
+  border-radius: 40px;
+  overflow: hidden;
+  background-color: white;
+  padding-bottom: 8px;
+  transition: transform .2s;
+}
+
+@media (max-width: 768px) {
+  .tarjeta-catalogo {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tarjeta-catalogo {
+    margin-bottom: 25px;
+  }
+}
+
+.tarjeta-catalogo:hover {
+  transform: translateY(-5px);
+}
+
+.img-producto {
+  width: 100%;
+  height: 180px;           
+  object-fit: contain;
+  background-color: white;
+  padding: 15px;
+}
+
+ @media (max-width: 576px) {
+  .img-producto {
+    height: 150px;
+  }
+}
+
+.precio {
+  background-color: #F2998D;
+  color: black;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  width: fit-content;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px; 
+  font-size: 1.4rem;
+}
+
+.info-producto {
+  padding: 20px;
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  .info-producto {
+    padding: 15px;
+  }
+}
+
+.info-producto h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 5px
+}
+
+.info-producto p {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 576px) {
+  .info-producto h5 {
+    font-size: 1rem;
+  }
+  .info-producto p {
+    font-size: 0.85rem;
+  }
+  .precio {
+    font-size: 1.1rem;
+  }
+}
+
+.btn-comprar {
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 6px 15px;
+  margin-top: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media (max-width: 576px) {
+  .btn-comprar {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+.btn-comprar:hover {
+  background-color: #c75f88;
+  color: #F8EFC0;
+}
+
+.linea-separadora {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin-top: 10px;
+}
+
+.my-footer {
+  background-color: #c75f88;
+  padding: 30px 0;
+}
+
+.my-footer .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .my-footer .container-fluid {
+    flex-direction: column !important;
+    justify-content: center ;
+    align-items: center ;
+    text-align: center;
+    gap: 25px;
+  }
+   .iconos-footer {
+    align-items: center !important;
+  }
+
+  .redes-footer {
+    justify-content: center !important;
+  }
+}
+
+.iconos-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icono-texto {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #F8EFC0 ;
+  font-family: "Montserrat", sans-serif;
+}
+
+.icono-footer {
+  width: 28px;
+  height: 28px;
+}
+
+.logo-footer {
+  height: 60px; 
+}
+
+.footer-logo-caja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes-footer {
+  display: flex;
+  gap: 15px;
+}
+
+
+.icono-social {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.servicio-box {
+  text-align: center;
+}
+
+.icono-servicio {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .icono-servicio {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+.servicio-box h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #c75f88;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.descripcion-servicio {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+@media (max-width: 576px) {
+  .descripcion-servicio {
+    font-size: 0.9rem;
+  }
+  .servicio-box h5 {
+    font-size: 1rem;
+  }
+}
+
+
+.testimonio-card {
+  background-color: #C75F88;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.testimonio-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #F29C8F;
+}
+
+@media (max-width: 576px) {
+  .testimonio-img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+
+.nombre-testimonio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+   line-height: 1.5;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.texto-testimonio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #F8EFC0;
+}
+
+@media (max-width: 576px) {
+  .texto-testimonio { font-size: 1rem; }
+  .nombre-testimonio { font-size: 1.3rem; }
+}
+
+.formulario-contacto {
+  background-color: #F2998D;   /* rosa */
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 6px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .formulario-contacto {
+    max-width: 90%;
+    padding: 20px;
+  }
+}
+
+.form-label-contacto {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 1.3rem;
+  text-align: left;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .form-label-contacto {
+    font-size: 1.1rem;
+  }
+}
+
+.form-control-contacto {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.textarea-contacto {
+  height: 150px;
+  resize: none;
+}
+
+.btn-enviar-contacto {
+  background-color: #F8EFC0;
+  color: black;
+  border: none;
+  padding: 6px 18px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-left: 0; 
+}
+
+@media (max-width: 576px) {
+  .btn-enviar-contacto {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.btn-enviar-contacto:hover {
+  background-color: #C75F88;
+  color: #F8EFC0;
+}
+
+@media (min-width: 768px) {
+  footer .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  margin-bottom: 0 !important;
+  padding-bottom: 20px;
+}
