@@ -506,10 +506,12 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .icono-texto.email-footer {
-    margin-left: -50px; 
+  .iconos-footer .email-footer {
+    margin-left: -18px !important;  
   }
 }
+
+
 
 
 
