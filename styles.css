@@ -495,9 +495,8 @@ body{
   }
 }
 
-body, html {
-  margin: 0;
-  padding: 0;
+html, body {
+  overflow-x: hidden !important;
 }
 
 footer {
@@ -510,6 +509,7 @@ footer {
     margin-left: -30px !important;  /* Ajustá el número a tu gusto */
   }
 }
+
 
 
 
