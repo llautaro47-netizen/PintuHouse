@@ -507,8 +507,9 @@ footer {
 
 @media (max-width: 768px) {
   .icono-texto.email-footer {
-    margin-left: -20px; 
+    margin-left: -50px; 
   }
 }
+
 
 
