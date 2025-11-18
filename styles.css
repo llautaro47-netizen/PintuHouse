@@ -507,7 +507,7 @@ footer {
 
 @media (max-width: 768px) {
   .iconos-footer .email-footer {
-    margin-left: -18px !important;  
+    margin-left: -18px !important;  /* Ajustá el número a tu gusto */
   }
 }
 
